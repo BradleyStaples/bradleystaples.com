@@ -12,7 +12,7 @@ const Page = ({ title, h2, children }) => {
         <link rel='canonical' href='https://bradleystaples.com/' />
         <meta name='description' content='The website of Bradley Staples, software engineer.' />
         <meta name='author' content='Bradley Staples' />
-        <link rel='shortcut' href='/favicon.ico' />
+        <link rel='shortcut' href='/images/favicon.ico' />
         <meta name='robots' content='index, follow' />
         <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
       </Helmet>
