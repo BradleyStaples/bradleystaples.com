@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $blue: #2396d1;
 $brown: #6a470b;
 $orange: #da7f09;
@@ -27,7 +29,7 @@ $directions: (
 );
 
 @function rem($value, $parent: $largeFontSize) {
-  $value: $value / $parent * 1rem;
+  $value: math.div($value, $parent) * 1rem;
   @if ($value == 0rem) { $value: 0; } // Turn 0rem into 0
   @return $value;
 }
