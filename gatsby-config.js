@@ -1,15 +1,20 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.bradleystaples.com',
-    title: 'Bradley Staples',
+    title: 'Bradley Staples'
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: 'UA-113405761-2',
-        head: true
-      }
+        trackingIds: [
+          'G-X8Z8MJL795'
+        ],
+        pluginConfig: {
+          head: false,
+          respectDNT: true
+        },
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-gatsby-cloud',
