@@ -25,7 +25,7 @@ const Page = ({ title, h2, children }) => {
           <li><a href='https://www.linkedin.com/in/bradleystaples/'>LinkedIn</a></li>
           <li><a href='http://github.com/bradleystaples'>Github</a></li>
           <li><a href="https://bsky.app/profile/bradleystaples.com">Bluesky</a></li>
-          <li><a href="https://mastodon.social/@bradleystaples" rel="me">Mastodon</a></li>
+          <li><a rel="me" href="https://mastodon.social/@bradleystaples">Mastodon</a></li>
         </ul>
         <hr />
       </nav>
